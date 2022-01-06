@@ -1,6 +1,13 @@
 section{
     font-family: 'Poppins', sans-serif;
     margin: 80px;
+}
+#first-heading{
+    font-size: 60px;
+    font-family: 'Boogaloo', cursive;
+    border-left: 5px solid;
+    border-color: maroon;
+    padding-left: 10px;
 }   
 .orange{
     color:maroon;
@@ -16,16 +23,25 @@ section{
 .half-width img{
     width: 80%;
 }    
-.experience-item{
+.blocks{
     width:28%;
-    margin-left: 5%;
-    margin-right: 5%;
-    box-shadow: 10px 10px 40px #888888;
-    padding-left: 20px;
-    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+#mission{
+    background-color: mediumaquamarine;
+}
+#vission{
+    background-color: pink;
+}
+#goals{
+    background-color: yellowgreen;
 }
 .text-part{
     width:60%;
+    padding: 40px;
 }
 .img-part{
     width:40%;
@@ -34,8 +50,30 @@ section{
     width:80%;
 }
 footer{
-    background-color: mediumslateblue;
+    background-color: rgb(11, 3, 59);
     text-align: center;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom:30px;
+    color: white;
+}
+.fp{
+    font-size:37px;
+    font-family: 'Moon Dance', cursive;
+    font-weight: 900;
+}
+#fp{
+    color: red;
+}
+.heading{
+    text-align: center;
+    font-size:x-large;
+}
+.button{
+    text-decoration: none;
+    background-color:rgb(21, 62, 78);
+    color:white;
+    font-weight: 700;
+    padding:10px 40px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(168, 179, 190);
 }
