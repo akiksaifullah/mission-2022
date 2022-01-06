@@ -1,6 +1,5 @@
-section{
+body{
     font-family: 'Poppins', sans-serif;
-    margin: 80px;
 }
 #first-heading{
     font-size: 60px;
@@ -34,10 +33,10 @@ section{
     background-color: mediumaquamarine;
 }
 #vission{
-    background-color: pink;
+    background-color: rgb(189, 123, 133);
 }
 #goals{
-    background-color: yellowgreen;
+    background-color: rgb(163, 130, 216);
 }
 .text-part{
     width:60%;
@@ -76,4 +75,15 @@ footer{
     padding:10px 40px;
     border-radius: 5px;
     box-shadow: 5px 5px 5px rgb(168, 179, 190);
+}
+.develop{
+    background-image: url(images/shapes/dream-bg.png);
+    background-repeat: no-repeat;
+}
+#im{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+}
+.margin{
+    margin:8%;
 }
